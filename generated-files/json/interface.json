@@ -1,0 +1,64 @@
+{
+  "QPushButton": [
+    {
+      "name": "menuTombol",
+      "icon": "Qss/icons/icons/feather/menu.png"
+    },
+    {
+      "name": "halamanTombol",
+      "icon": "Qss/icons/icons/feather/home.png"
+    },
+    {
+      "name": "pemasukanTombol",
+      "icon": "Qss/icons/icons/feather/plus-square.png"
+    },
+    {
+      "name": "pengeluaranTombol",
+      "icon": "Qss/icons/icons/feather/minus-square.png"
+    },
+    {
+      "name": "laporanTombol",
+      "icon": "Qss/icons/icons/material_design/print.png"
+    },
+    {
+      "name": "pengaturanTombol",
+      "icon": "Qss/icons/icons/feather/settings.png"
+    },
+    {
+      "name": "informasiTombol",
+      "icon": "Qss/icons/icons/feather/info.png"
+    },
+    {
+      "name": "bantuanTombol",
+      "icon": "Qss/icons/icons/font_awesome/solid/circle-question.png"
+    },
+    {
+      "name": "keluarMenuTombol",
+      "icon": "Qss/icons/icons/feather/x-circle.png"
+    },
+    {
+      "name": "minimizeBtn",
+      "icon": "Qss/icons/icons/feather/window_minimize.png"
+    },
+    {
+      "name": "restoreBtn",
+      "icon": "Qss/icons/icons/feather/copy.png"
+    },
+    {
+      "name": "closeBtn",
+      "icon": "Qss/icons/icons/feather/window_close.png"
+    },
+    {
+      "name": "addExpenseButton",
+      "icon": "Qss/icons/icons/feather/minus-square.png"
+    },
+    {
+      "name": "addIncomeButton",
+      "icon": "Qss/icons/icons/font_awesome/regular/square-plus.png"
+    },
+    {
+      "name": "downloadButton",
+      "icon": "Qss/icons/icons/feather/download.png"
+    }
+  ]
+}

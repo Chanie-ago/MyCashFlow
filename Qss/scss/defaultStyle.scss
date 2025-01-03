@@ -1,0 +1,178 @@
+
+            //===================================================//
+            // FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+            // THESE STYLES WILL OVERIDE THE THEME STYLES
+            //====================================================//
+            
+            *{
+                font-family: 'Sans Serif';
+            }
+
+            QMainWindow, #centralwidget{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 10px;
+                border: 5px solid;
+            }
+
+            QPushButton, QLineEdit, QDateEdit{
+            
+                border-radius: 10px;
+                min-width: none;
+                width: auto;
+
+            }
+
+            #leftMenu{
+                & QWidget{
+                    background-color: transparent;
+                }
+                background-color: $COLOR_BACKGROUND_1;
+                padding-top: 10px;
+                border-right: 6px solid $COLOR_BACKGROUND_3;
+            }
+            #centerMenu{
+                border-left: 6px solid $COLOR_ACCENT_1;
+                border-right: 6px solid $COLOR_BACKGROUND_3;
+            }
+
+            #leftMenu QPushButton{
+                text-align: left;
+                width: 150px;
+                padding: 5px 10px;
+                border-radius: 0;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+
+            #centerMenu{
+                & > Qwidget{
+                    background-color: transparent;
+                    padding: 10px;
+                    border-bottom: $BORDER_2;
+                    *{
+                        background-color: transparent;
+                    }
+                }
+                & > QStackedWidget{
+                    border-radius: 10px;
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+
+            #header, #footer{
+                background-color: $COLOR_BACKGROUND_1;
+                *{
+                    background-color: transparent;
+                }
+            }
+
+            #header{
+                border-bottom: $BORDER_2;
+                #frame_4 {
+                    padding: 0;
+                    QPushButton{
+                        padding: 4px 2px;
+                        border-radius: 0;
+                        &:hover{
+                            background-color: $COLOR_BACKGROUND_2;
+                        }
+                    }
+                }
+            }
+            #footer{
+                border-top: 6px solid $COLOR_BACKGROUND_3;
+            }
+            #tittleTxt{
+                color: $COLOR_TEXT_1;
+            }
+
+            #mainPagesCont{
+                background-color: $COLOR_BACKGROUND_2;
+                border: none;
+                border-radius: 10px;
+                QStackedWidget{
+                    background-color: transparent;
+                    border: none;
+                }
+
+                #menuHalaman, #pemasukanHalaman, #pengeluaranHalaman, #laporanHalaman{
+                    background-color: $COLOR_BACKGROUND_2;
+                    *, Qwidgets{
+                            background-color: transparent;
+                            border-radius: none;
+                        }
+                }
+            }
+
+            #inputMasuk{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+
+            #tabelPemasukan, #tabelPengeluaran{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+
+            #inputKeluar{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+
+            #totalPemasukan{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+
+            #totalPengeluaran{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+
+            #widget_12{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+            
+            #expenseTableWidget_2{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: none;
+            }
+            
+            #tableWidget{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: none;
+            }
+
+            #expenseTableWidget{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: none;
+            }
+
+            #incomeTableWidget{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: none;
+            }
+
+            #refreshButton{
+                background-color: $COLOR_BACKGROUND_1;
+                border-radius: 2px;
+                border: 3px solid;
+            }
+            
+
+            //===================================================//
+            // END //
+            //====================================================//
+            
